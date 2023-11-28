@@ -3,27 +3,62 @@ body
     color:  #FAC81C;
     background-color: black;
     background-image: url('https://vidcdn.123rf.com/450nwm/billbell1960/billbell19601406/billbell1960140600098.jpg');
+    margin: 0;
 }
 
-h1
+h1,h2
 {
     text-align: center;
+    transform: rotatex(50deg);
+}
+h1
+{
+   
+    font-size: 80px;
 }
 
 h2
 {
-    text-align: center;
+    font-size: 50px;
 }
 
 div
 {
     text-align: center;
-    
+    font-size: 45px;
+     
+}
+
+.defil
+{
+    overflow: hidden;
+    animation: defilement 90s ;
 }
 
 #intro
 {
     color: #135ee9;
     text-align: center;
-    
+    animation: Disparition 90s;
+    font-size: 50px;
+}
+
+@keyframes defilement 
+{
+    0% 
+    {
+      transform: translateY(0) rotateX(60deg);;
+    }
+    100% 
+    {
+      transform: translateY(-100%) rotateX(60deg);;
+    }
+}
+@keyframes Disparition 
+{
+    20%, 100% 
+    {
+      opacity: 0;
+    }
+   
 }
