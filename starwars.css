@@ -9,7 +9,7 @@ body
 h1,h2
 {
     text-align: center;
-    transform: rotatex(50deg);
+    
 }
 h1
 {
@@ -32,14 +32,15 @@ div
 .defil
 {
     overflow: hidden;
-    animation: defilement 90s ;
+    animation: defilement 90s;
+    perspective: 500px;
 }
 
 #intro
 {
     color: #135ee9;
     text-align: center;
-    animation: Disparition 90s;
+    animation: disparition 90s;
     font-size: 50px;
 }
 
@@ -47,18 +48,24 @@ div
 {
     0% 
     {
-      transform: translateY(0) rotateX(60deg);;
+      transform: translateY(0) rotateX(65deg);
     }
     100% 
     {
-      transform: translateY(-100%) rotateX(60deg);;
+      transform: translateY(-100%) rotateX(65deg);
     }
 }
-@keyframes Disparition 
+@keyframes disparition 
 {
     20%, 100% 
     {
       opacity: 0;
     }
    
+}
+
+img
+{
+    width: 200;
+    height: auto;
 }
