@@ -1,0 +1,29 @@
+body
+{
+    color:  #FAC81C;
+    background-color: black;
+    background-image: url('https://vidcdn.123rf.com/450nwm/billbell1960/billbell19601406/billbell1960140600098.jpg');
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+div
+{
+    text-align: center;
+    
+}
+
+#intro
+{
+    color: #135ee9;
+    text-align: center;
+    
+}
